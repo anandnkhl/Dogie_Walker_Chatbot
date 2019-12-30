@@ -1,7 +1,7 @@
 const functions = require('firebase-functions');
 const cors = require('cors')({ origin: true});
 const admin = require('firebase-admin');
-const serviceAccount = require('./service-account.json');
+const serviceAccount = require('./dogie-walker-xolxgk-firebase-adminsdk-uy4nb-7b3263c797.json');
 
 admin.initializeApp({
   credential: admin.credential.cert(serviceAccount),
