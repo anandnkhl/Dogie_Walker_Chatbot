@@ -12,6 +12,12 @@
   },
   "author": "",
   "license": "ISC",
+  "dependencies":{
+    "body-parser" : "^1.19.0",
+    "dialogflow" : "^0.10.2",
+    "express" : "^4.17.1",
+    "uuid" : "^3.3.2"
+  },
   "bugs": {
     "url": "https://github.com/anandnkhl/Dogie_Walker_Chatbot/issues"
   },
