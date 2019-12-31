@@ -1,0 +1,19 @@
+{
+  "name": "dogiewalkerbot",
+  "version": "1.0.0",
+  "description": "This project is a virtual assistant for the 'Dogie Walker'. This assistant will accept and store requests made for booking slots to walk the dog on behalf of the Dogie Walker.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anandnkhl/Dogie_Walker_Chatbot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anandnkhl/Dogie_Walker_Chatbot/issues"
+  },
+  "homepage": "https://github.com/anandnkhl/Dogie_Walker_Chatbot#readme"
+}
