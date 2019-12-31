@@ -10,7 +10,9 @@ async function runSample(projectId = 'dogie-walker-xolxgk') {
   const sessionId = uuid.v4();
 
   // Create a new session
-  const sessionClient = new dialogflow.SessionsClient();
+  const sessionClient = new dialogflow.SessionsClient({
+    keyFilename: "dogie-walker-xolxgk.json"
+  });
   const sessionPath = sessionClient.sessionPath(projectId, sessionId);
 
   // The text query request.
@@ -38,3 +40,5 @@ async function runSample(projectId = 'dogie-walker-xolxgk') {
     console.log(`  No intent matched.`);
   }
 }
+
+runSample()
