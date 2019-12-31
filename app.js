@@ -21,7 +21,7 @@ async function runSample(projectId = 'dogie-walker-xolxgk') {
     queryInput: {
       text: {
         // The query to send to the dialogflow agent
-        text: 'hello',
+        text: process.argv.slice(2),
         // The language used by the client (en-US)
         languageCode: 'en-US',
       },
