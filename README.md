@@ -18,3 +18,7 @@ etc.
 
 <br>Following is the working Query and Response from Dialogflow:
 ![DogieWalkerSS](https://user-images.githubusercontent.com/36640498/71643000-9c4c6880-2cd9-11ea-92bc-3e7874f19ff9.jpeg)
+
+<br>#To Do:
+1. Store responses from customers.
+2. Build a frontend for the chatbot.
