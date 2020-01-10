@@ -21,14 +21,13 @@ async function runSample(projectId = 'dogie-walker-xolxgk') {
     queryInput: {
       text: {
         // The query to send to the dialogflow agent
-        text: process.argv.slice(2),
-        // The language used by the client (en-US)
+        text: process.argv.slice(2), //Recieve query from CLI at runtime
         languageCode: 'en-US',
       },
     },
   };
 
-  // Send request and log result
+  // Sends request and logs result on console
   const responses = await sessionClient.detectIntent(request);
   console.log('Detected intent');
   const result = responses[0].queryResult;
