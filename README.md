@@ -1,11 +1,17 @@
 <br>This project is a virtual assistant for the 'Dogie Walker'. This assistant will accept and store requests made for booking slots to walk the dog on behalf of the Dogie Walker.
 <br>
 <br>To run this app:
-<br>1. Install NodeJS 
+<br>1. Install NodeJS on linux: 
 ```bash
 sudo apt-get update
 sudo apt-get install nodejs
 ```
+
+<br>1. Install NodeJS on MacOS: 
+```bash
+brew install node
+```
+
 <br>2. Run the file: [app.js](https://github.com/anandnkhl/Dogie_Walker_Chatbot/blob/master/app.js) with CLI arguments as chat input
 ```bash
 node app.js "hello"
