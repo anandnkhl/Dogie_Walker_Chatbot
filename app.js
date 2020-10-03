@@ -1,3 +1,4 @@
+require('dotenv').config();
 const dialogflow = require('dialogflow');
 const uuid = require('uuid');
 
@@ -5,13 +6,13 @@ const uuid = require('uuid');
  * Send a query to the dialogflow agent, and return the query result.
  * @param {string} projectId The project to be used
  */
-async function runSample(projectId = 'dogie-walker-xolxgk') {
+async function runSample(projectId = process.env.DF_PROJECTID) {
   // A unique identifier for the given session
   const sessionId = uuid.v4();
 
   // Create a new session
   const sessionClient = new dialogflow.SessionsClient({
-    keyFilename: "dogie-walker-xolxgk.json"
+    keyFilename: process.env.DF_KEYFILENAME
   });
   const sessionPath = sessionClient.sessionPath(projectId, sessionId);
 

@@ -22,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/anandnkhl/Dogie_Walker_Chatbot/issues"
   },
-  "homepage": "https://github.com/anandnkhl/Dogie_Walker_Chatbot#readme"
+  "homepage": "https://github.com/anandnkhl/Dogie_Walker_Chatbot#readme",
+  "devDependencies": {
+    "dotenv": "^8.2.0"
+  }
 }
